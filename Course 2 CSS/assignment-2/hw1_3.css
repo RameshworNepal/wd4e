@@ -1,0 +1,56 @@
+body{
+	margin: 2%;
+}
+
+header{
+	background: url("../images/flywheel.jpg") no-repeat;
+	background-size: 100%;
+	padding: 20px;
+	height: 150px;
+}
+
+header>h1{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header a{
+	background-color: rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	border-radius: 5px;
+	float: left;
+	margin-left: 7%;
+	height: 60px;
+	width: 15%;
+	text-align: center;
+	vertical-align: center;
+	line-height: 55px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.active{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.left{
+	display: inline-block;
+	background-color: rgb(119, 118, 19);
+	width: 20%;
+	height: 1000px;
+}
+
+.left img{
+	display: block;
+	width: 90%;
+	border: 1px solid #000000;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.right{
+	display: inline-block;
+	float: right;
+	width: 79%;
+}

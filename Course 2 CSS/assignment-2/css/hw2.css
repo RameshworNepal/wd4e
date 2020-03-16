@@ -1,0 +1,53 @@
+
+body{	
+	  background-image: url('images/flywheel.jpg');
+  	  background-repeat: no-repeat;
+      background-attachment: fixed; 
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-size: 220%;
+	font-style: bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+a{
+	
+	color: #000000;
+}
+
+main aside{
+	background: ##54c44f;
+	width: 170px;
+
+}
+
+.left{
+	float: left;
+	background: ##54c44f;
+}
+
+.right{
+	float: none;
+}
+aside img{
+	width: 130px;
+	margin: 20px;
+}
+
+section{
+
+}
+
+h2{
+	color: #040DDD;
+	text-transform: uppercase;
+}
+
+abbr {
+  text-decoration: none;
+}

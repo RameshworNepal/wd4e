@@ -1,0 +1,135 @@
+//The Ultimate Project CSS File
+
+//Main Stuff
+
+header{
+	height: 23vh;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("https://all4desktop.com/data_images/original/4236795-wallpaper-background.jpg")
+
+}
+
+h1 {
+	color:  #ffffff;
+	text-align: center;
+	text-transform: uppercase
+	padding-top: 15px;
+}
+
+h2{
+	color:#000025;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 22px;
+	padding-left: 80px;
+}
+
+
+nav{
+	text-align: auto;
+	color:#000025;
+	display: block;
+ 
+	}
+
+nav a{
+	display: inline-block;
+	margin-left: 45px;
+	margin-right: 45px;
+	position: relative;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	text-align: auto;
+	color: #000000;
+	background-color: rgba(240,255,230,0);	
+}
+
+
+//Image
+
+
+aside{
+	width: 245px;
+	height: 550px;
+	background-color: #556b2f;
+	float: left;
+}
+
+img{
+	width: 170px;
+	height: 135px;
+	display: block;
+	float: left;
+	border: 3px solid;
+	border-color: #000000;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin: [margin] auto;
+}
+
+//Table Part
+
+table {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 50px;
+  color: #9D3838;
+  width: 68%;
+}
+
+th {
+	background-color: #6809B0;
+	color: white;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+ td {
+  padding: 18px;
+  background-color: rgb(48, 193, 229);
+  font-family: coruier; 
+  font-weight: bold;
+}
+
+
+tr{
+	background-color: rgba(254,251,254, .6);
+}
+
+tr:hover {
+         background-color: rgba(249, 165, 165, .2);
+        }
+
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+table tr:first-child th:last-child {
+  border-top-right-radius: 5px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+table td,
+table th
+{
+    text-align: left;
+}
+
+table td + td,
+table th + th
+{
+    text-align: center;
+}
